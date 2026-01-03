@@ -20,12 +20,13 @@ Is repository me main **ZERO se DSA (C language)** ka **clear roadmap + daily pl
 
 Example Program:
 #include <stdio.h>
+  int main() {
+    int a = 10;
+    printf("%d", a);
+    return 0;
+  }
 
-int main() {
-int a = 10;
-printf("%d", a);
-return 0;
-}
+
 
 
 ---
