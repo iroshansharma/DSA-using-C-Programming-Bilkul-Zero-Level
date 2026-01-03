@@ -1,153 +1,198 @@
-# 🔥 DAY 1 – C Programming (Bilkul Zero Level)
+# 🚀 DSA Using C Programming (Bilkul Zero Level)
 
-Aaj hum foundation banaayenge.  
-Aaj ka din bahut important hai 💯
+C language se DSA start karna **best decision** hai —  
+logic strong hota hai aur **exams + interviews dono me kaam aata hai 💯**
 
----
-
-## 🎯 DAY 1 Goals
-
-✔ C language kya hai  
-✔ Program ka structure samajhna  
-✔ First C program likhna  
-✔ printf() aur scanf() use karna  
+Is repository me main **ZERO se DSA (C language)** ka **clear roadmap + daily plan** follow kar raha hoon.
 
 ---
 
-## 📘 1️⃣ C Language kya hai?
-
-C ek procedural programming language hai.
-
-- Fast hai  
-- Memory control deta hai  
-- DSA, OS aur System Programming ke liye best hai  
-
-💡 DSA ka base = C + Logic + Pointers
+## 🟢 PHASE 1: C Programming Basics (DSA se pehle)
+⏳ Duration: **12–15 Days**
 
 ---
 
-## 🧱 2️⃣ C Program ka Structure
+### 🔹 Day 1–2: Basics
+- C kya hai  
+- Compiler kya hota hai  
+- `printf()` , `scanf()`  
+- Variables & Data Types  
 
-Har C program me ye parts hote hain:
-
-1. #include <stdio.h>  
-   → Input/output ke liye use hota hai  
-
-2. int main()  
-   → Program execution yahin se start hota hai  
-
-3. { }  
-   → Program body  
-
-4. return 0;  
-   → Program successfully execute hone ka sign  
-
----
-
-## 🖥️ 3️⃣ First C Program (Hello World)
-
+Example Program:
 #include <stdio.h>
 
 int main() {
-    printf("Hello World");
-    return 0;
+int a = 10;
+printf("%d", a);
+return 0;
 }
 
-📌 Samjho:
-
-- printf() output print karta hai  
-- Semicolon (;) lagana compulsory hota hai  
 
 ---
 
-## 📊 4️⃣ Variables & Data Types
-
-### Variables
-Variable ek container hota hai jisme data store hota hai.
-
-Examples:
-
-int age = 20;  
-float marks = 85.5;  
-char grade = 'A';
-
-### Common Data Types
-
-int  → Numbers  
-float → Decimal values  
-char → Single character  
+### 🔹 Day 3–4: Operators & Conditions
+- Arithmetic Operators  
+- Relational Operators  
+- Logical Operators  
+- `if`, `if-else`, `else-if`  
 
 ---
 
-## ⌨️ 5️⃣ Input lena – scanf()
+### 🔹 Day 5–6: Loops
+- `for` loop  
+- `while` loop  
+- `do-while` loop  
 
-#include <stdio.h>
-
-int main() {
-    int a;
-    printf("Enter a number: ");
-    scanf("%d", &a);
-    printf("You entered: %d", a);
-    return 0;
-}
-
-📌 Important points:
-
-- & → Address operator hota hai  
-- %d → Integer format specifier hota hai  
+Programs:
+- Even / Odd  
+- Factorial  
+- Number based problems  
 
 ---
 
-## 🧠 6️⃣ Dry Run (Sochna Seekho)
-
-Input: 5  
-
-- a variable me 5 store hoga  
-- Output hoga: You entered: 5  
-
-✍️ Har program ko pen-paper se samajhna zaroori hai.
+### 🔹 Day 7–8: Functions
+- Function declaration & definition  
+- Function calling  
+- Call by value  
 
 ---
 
-## 📝 DAY 1 Practice Questions (IMPORTANT)
-
-🔥 Ye programs khud likho, copy mat karo:
-
-1️⃣ Print your name  
-2️⃣ Print your age  
-3️⃣ Add two numbers (user input)  
-4️⃣ Find area of rectangle  
-5️⃣ Simple interest program  
+### 🔹 Day 9–10: Arrays
+- 1D Array  
+- Array traversal  
+- Insertion  
+- Deletion  
 
 ---
 
-## ⚠️ Common Beginner Mistakes
-
-❌ Semicolon (;) bhool jaana  
-❌ scanf() me & bhool jaana  
-❌ Code sirf dekhna, khud likhna nahi  
-
----
-
-## 📌 Homework (Must Do)
-
-- 5 programs likho  
-- Compiler install karo (CodeBlocks / Dev-C++)  
-- Har program ka dry run karo  
+### 🔹 Day 11–12: Strings
+- Character array  
+- String input/output  
+- String functions (`strlen`, `strcpy`)  
 
 ---
 
-## ⏭️ DAY 2 Preview
+### 🔹 Day 13–15: Pointers (MOST IMPORTANT)
+- `*` and `&` operators  
+- Pointer with array  
+- Pointer with function  
 
-👉 Operators  
-👉 if–else  
-👉 Comparison programs  
+⚠️ **Pointers strong nahi hue toh DSA mushkil lagega**
 
 ---
 
-## 🔥 Batao:
+## 🟡 PHASE 2: Data Structures & Algorithms (Using C)
+⏳ Duration: **2–3 Months**
 
-✔ Kya tumne Hello World program run kar liya?  
-✔ Kaunsa compiler use kar rahe ho?
+---
 
-Kal DAY 2 start karenge 💪
+### 📦 1️⃣ Arrays (7 Days)
+- Traversal  
+- Insertion  
+- Deletion  
+- Searching  
+
+---
+
+### 🔁 2️⃣ Recursion (5 Days)
+- Factorial  
+- Fibonacci  
+- Tail Recursion  
+
+---
+
+### 🔍 3️⃣ Searching (4 Days)
+- Linear Search  
+- Binary Search  
+
+---
+
+### 🔃 4️⃣ Sorting (7 Days)
+- Bubble Sort  
+- Selection Sort  
+- Insertion Sort  
+
+---
+
+### 📚 5️⃣ Stack (6 Days)
+- Stack using Array  
+- Push  
+- Pop  
+- Peek  
+- Infix → Postfix  
+
+---
+
+### 🚶 6️⃣ Queue (5 Days)
+- Simple Queue  
+- Circular Queue  
+
+---
+
+### 🔗 7️⃣ Linked List (10 Days)
+- Singly Linked List  
+- Insertion  
+- Deletion  
+- Reverse Linked List  
+
+---
+
+### 🌳 8️⃣ Tree (Basics)
+- Binary Tree  
+- Tree Traversals  
+  - Inorder  
+  - Preorder  
+  - Postorder  
+
+---
+
+### 🕸️ 9️⃣ Graph (Basics)
+- BFS  
+- DFS  
+
+---
+
+## 🧪 Daily Practice Rule (VERY IMPORTANT)
+📌 Har topic ke liye:
+- 5 Easy questions  
+- 3 Medium questions  
+- 2 Logical questions  
+
+✍️ **Pen–paper dry run compulsory**
+
+---
+
+## 📘 Best FREE Resources (C + DSA)
+
+### 🎥 YouTube
+- CodeWithHarry (C + DSA)  
+- Apna College  
+- Gate Smashers (DSA Theory)  
+
+### 💻 Coding Practice Platforms
+- HackerRank (C section)  
+- CodeChef (Beginner)  
+
+---
+
+## ❌ Common Mistakes (Avoid These)
+❌ Pointers skip karna  
+❌ Direct Linked List pe jump karna  
+❌ Sirf theory padhna, practice na karna  
+
+---
+
+## 🎯 Result (After ~3 Months)
+✔ C language strong  
+✔ DSA concepts clear  
+✔ Confident coding  
+✔ Interview-ready basics  
+
+---
+
+## 🔥 Next Steps
+- Day-wise folders create honge  
+- Daily Git commits honge  
+- Proper practice questions solve honge  
+
+👉 **DAY 1 se journey start ho chuki hai 💪**
